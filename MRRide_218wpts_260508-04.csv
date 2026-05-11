@@ -1,8 +1,7 @@
 No,Line,Latitude,Longitude,Name,Description,Symbol
-,,,,=== METADATA ===,Generated & refined by Grok (xAI) on 2026-05-11 01:14,
-,,,,"Changelog 260508-04: Re-categorized into target groups, 6-digit numbering, compact blocks",
+,,,,=== METADATA ===,Generated & refined by Grok (xAI) on 2026-05-11 12:45,
+,,,,"Changelog 260508-04: Compact categories, 6-digit numbers, fixed column count for GitHub",
 ,,,,=== Mississippi River Crossing - Bridge ===,,
-000002,000002,,,"Changelog 260508-03: Added missing Crossing 006, moved 0039/0041 to Intersection, split Eads Bridge cleanly, fixed cardinal names, filled missing Start Days, ferry symbols",,Dot
 000003,000003,,,=== Mississippi River Crossing ===,,
 000004,000004,,,Mississippi River Crossing 060,Mississippi River Crossing 060,Bridge
 000005,000005,47.240130,-95.209776,Mississippi River Crossing 001,Mississippi River Crossing 001,Bridge
@@ -104,20 +103,18 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 005897,005897,38.629610,-90.185440,Slight Left,Keep left onto Eads Bridge,Dot
 005923,005923,38.628486,-90.174914,Eads Bridge,Eads Bridge Landmark,Bridge
 ,,,,=== Mississippi River Crossing - Ferry ===,,
-,,,,=== Overnight - Accommodation ===,,
-000220,000220,,,=== Overnight ===,,Dot
-000221,000221,,,=== Overnight ===,,Dot
-000222,000222,,,=== Overnight ===,,Dot
-000223,000223,,,=== Overnight ===,,Dot
-000896,000896,,,=== Overnight ===,,Dot
-000958,000958,,,=== Overnight ===,,Dot
-,,,,=== Overnight - Camping ===,,
-000224,000224,47.015880,-93.294980,Turn left onto Jacobson Campground Rd,Turn left onto Jacobson Campground Rd,Dot
-000225,000225,47.023260,-93.276700,Turn left to stay on Jacobson Campground Rd,Turn left to stay on Jacobson Campground Rd,Dot
-000226,000226,47.019700,-93.275410,Turn right to stay on Jacobson Campground Rd,Turn right to stay on Jacobson Campground Rd,Dot
-000227,000227,40.644695,-91.143470,Camp Creek,Camp Creek,Campground
-000899,000899,42.182217,-90.355963,Sugar Camp Hollow to Right,Sugar Camp Hollow to Right,Dot
-000961,000961,41.538145,-90.425832,Campbells Island Bridge,Campbells Island Bridge,City
+000002,000002,,,"Changelog 260508-03: Added missing Crossing 006, moved 0039/0041 to Intersection, split Eads Bridge cleanly, fixed cardinal names, filled missing Start Days, ferry symbols",,Dot
+000146,000146,,,"Changelog 260507-08: Ferry symbols, improved city detection, combined boundaries",,Ferry
+000157,000157,,,"Changelog 260507-07: City detection by state abbr, combined state boundaries, improved ferry handling",,Ferry
+001204,001204,38.025300,-90.059780,Slight right onto Fish Lake Rd/​Modoc Ferry Rd,Slight right onto Fish Lake Rd/​Modoc Ferry Rd,Ferry
+001205,001205,38.018310,-90.060200,Fish Lake Rd/​Modoc Ferry Rd turns left and becomes Levee Rd,Fish Lake Rd/​Modoc Ferry Rd turns left and becomes Levee Rd,Ferry
+001989,001989,30.287581,-91.209944,Plaquemine Ferry access rd to Right,Plaquemine Ferry access rd to Right,Ferry
+002107,002107,29.576693,-89.793967,Turn Right onto Pointe a la Hache Ferry Access Rd,Turn Right onto Pointe a la Hache Ferry Access Rd,Ferry
+003748,003748,43.350612,-91.102104,"Ferryvilly, WI","Ferryvilly, WI",Ferry
+005674,005674,38.965327,-90.494793,"Cross Illinois River ,Brussels Ferry","Cross Illinois River ,Brussels Ferry",Ferry
+006156,006156,38.009220,-90.053760,Take the Ste. Genevieve-Modoc ferry to Ste. Genevieve,Take the Ste. Genevieve-Modoc ferry to Ste. Genevieve,Ferry
+006855,006855,36.566580,-89.207130,Turn left onto Hickman Ferry Crossing,Turn left onto Hickman Ferry Crossing,Ferry
+007800,007800,29.949940,-90.062140,Continue onto Canal Street–Algiers Point Ferry,Continue onto Canal Street–Algiers Point Ferry,Ferry
 ,,,,=== Control - Start Day ## ===,,
 000090,000090,47.380625,-94.591592,Control,Start Day 02,Flag
 000091,000091,47.335872,-93.800486,Control,Start Day 03,Flag
@@ -479,6 +476,322 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 007373,007373,,,=== Control - State Boundary ===,,City
 007374,007374,33.296990,-91.140297,Leave AR,Leave AR,Flag
 007375,007375,33.296990,-91.140297,Enter MS,Enter MS,Flag
+,,,,=== City/Town Center ===,,
+000141,000141,,,=== Control - Cardinal Extreme ===,,City
+000150,000150,,,=== Control - Cardinal Extreme ===,,City
+000163,000163,,,=== Control - Cardinal Extreme ===,,City
+000178,000178,,,=== Control - Cardinal Extreme ===,,City
+000242,000242,47.253614,-95.212219,Cross MN SH 200,Cross MN SH 200,City
+000248,000248,47.354145,-95.081257,"Becida, MN","Becida, MN",City
+000254,000254,47.468590,-94.915704,Cross US Route 2/MN SR 371,Cross US Route 2/MN SR 371,City
+000260,000260,47.472663,-94.879661,"Bemidji, MN","Bemidji, MN",City
+000277,000277,47.382615,-94.607534,"Cross US Route 2,Cass Lake, MN","Cross US Route 2,Cass Lake, MN",City
+000278,000278,47.379469,-94.607580,"Cass Lake, MN","Cass Lake, MN",City
+000290,000290,47.345258,-94.208763,"Bena, MN","Bena, MN",City
+000319,000319,47.232869,-93.528355,"Grand Rapids, MN","Grand Rapids, MN",City
+000332,000332,47.005025,-93.294460,Cross MN SR 200,Cross MN SR 200,City
+000344,000344,46.710380,-93.488410,"Palisade, MN","Palisade, MN",City
+000345,000345,46.535519,-93.706699,"Aitkin, MN","Aitkin, MN",City
+000351,000351,46.546163,-93.958131,Cross MN SR 6,Cross MN SR 6,City
+000370,000370,46.357541,-94.216182,Cross MN SR 210,Cross MN SR 210,City
+000383,000383,46.312361,-94.267580,Cross Under MN SR 371,Cross Under MN SR 371,City
+000398,000398,46.243719,-94.343237,"Lennox, MN","Lennox, MN",City
+000410,000410,46.166298,-94.360239,"Fort Ripley, MN","Fort Ripley, MN",City
+000423,000423,45.976882,-94.365548,"Little Falls, MN","Little Falls, MN",City
+000440,000440,45.751969,-94.220339,"Rice, MN","Rice, MN",City
+000441,000441,45.676365,-94.180808,"Watab, MN","Watab, MN",City
+000442,000442,45.615261,-94.204521,"Sartell, MN","Sartell, MN",City
+000448,000448,45.595201,-94.191041,Cross MN SR 15,Cross MN SR 15,City
+000460,000460,45.559262,-94.156485,"Cross MN SR 23 ,St. Cloud, MN","Cross MN SR 23 ,St. Cloud, MN",City
+000475,000475,45.415028,-94.050264,"Clearwater, MN","Clearwater, MN",City
+000488,000488,45.305632,-93.794192,"Cross MN SR 25,Monticello, MN","Cross MN SR 25,Monticello, MN",City
+000500,000500,45.281140,-93.565770,"At roundabout, take exit 1 onto Parrish Avenue Northeast, CR","At roundabout, take exit 1 onto Parrish Avenue Northeast, CR 42",City
+000501,000501,45.281119,-93.565739,"Otsego, MN","Otsego, MN",City
+000507,000507,45.263639,-93.555879,Cross Under MN SR 101,Cross Under MN SR 101,City
+000513,000513,45.244054,-93.515348,"Dayton, MN","Dayton, MN",City
+000525,000525,45.190680,-93.396070,Cross Under MN SR 169,Cross Under MN SR 169,City
+000540,000540,45.127662,-93.300102,Cross Under MN SR 252,Cross Under MN SR 252,City
+000554,000554,44.987407,-93.267170,Cross Under Nicollet Island Silver Railroad Bridge,Cross Under Nicollet Island Silver Railroad Bridge,City
+000560,000560,44.982387,-93.261772,"Minneapolis, MN","Minneapolis, MN",City
+000574,000574,44.894866,-93.181092,Cross Under MN SR 5,Cross Under MN SR 5,City
+000588,000588,44.931876,-93.102715,Cross Under MN SR 149,Cross Under MN SR 149,City
+000601,000601,44.949851,-93.098456,"St. Paul, MN","St. Paul, MN",City
+000615,000615,44.931581,-93.080787,"South St. Paul, MN","South St. Paul, MN",City
+000636,000636,44.824084,-92.925816,"Cottage Grove, MN","Cottage Grove, MN",City
+000649,000649,44.806370,-92.912000,"At roundabout, take exit 2 onto East Point Douglas Road Sout","At roundabout, take exit 2 onto East Point Douglas Road South",City
+000679,000679,44.575709,-92.361894,Cross Warrentown Coulee,Cross Warrentown Coulee,City
+000685,000685,44.575650,-92.358551,"Warrentown, WI","Warrentown, WI",City
+000686,000686,44.448752,-92.179879,"Lakeport, WI","Lakeport, WI",City
+000708,000708,44.021017,-91.555169,"Homer, MN","Homer, MN",City
+000714,000714,44.006808,-91.495968,Cedar Creek,Cedar Creek,City
+000726,000726,43.913510,-91.359118,"Dakota, MN","Dakota, MN",City
+000727,000727,43.894649,-91.342980,"Dresbach, MN","Dresbach, MN",City
+000739,000739,43.828292,-91.301475,"La Crescent, MN","La Crescent, MN",City
+000773,000773,43.662022,-91.218994,"Stoddard, WI","Stoddard, WI",City
+000785,000785,43.340079,-91.081334,Sugar Creek,Sugar Creek,City
+000797,000797,43.169897,-91.134028,Du Charme Creek,Du Charme Creek,City
+000809,000809,43.050004,-91.151323,Cross Marais de Saint Feriole,Cross Marais de Saint Feriole,City
+000822,000822,43.045050,-91.178201,"Marquette, IA","Marquette, IA",City
+000835,000835,43.045031,-91.178180,"Marquette, IA","Marquette, IA",City
+000863,000863,42.693591,-90.845128,Cross McCartney Branch,Cross McCartney Branch,City
+000880,000880,42.630485,-90.652447,Cross Platte River,Cross Platte River,City
+000913,000913,42.071631,-90.172344,"Sabula, IA","Sabula, IA",City
+000926,000926,41.958422,-90.111859,"Thomson, IL","Thomson, IL",City
+000940,000940,41.803545,-90.180291,Cross Cedar Creek,Cross Cedar Creek,City
+000955,000955,41.593811,-90.335495,Cross Barber Creek,Cross Barber Creek,City
+000973,000973,41.532625,-90.429210,Sugar Creek,Sugar Creek,City
+001014,001014,41.503328,-90.608185,Credit Island Park,Credit Island Park,City
+001029,001029,41.187052,-90.967818,Edwards River,Edwards River,City
+001044,001044,40.865487,-90.960530,"Gladstone, IL","Gladstone, IL",City
+001050,001050,40.812560,-91.098170,Take exit 263 for County Rd 99/​Main St toward Burlington,Take exit 263 for County Rd 99/​Main St toward Burlington,City
+001064,001064,40.637810,-91.168609,"Dallas City, IL","Dallas City, IL",City
+001076,001076,40.465982,-91.362500,Larry Creek,Larry Creek,City
+001088,001088,40.372398,-91.394104,Cedar Glen Creek,Cedar Glen Creek,City
+001094,001094,40.359169,-91.434429,"Warsaw, IL","Warsaw, IL",City
+001100,001100,40.318575,-91.436556,Shuhart Creek,Shuhart Creek,City
+001101,001101,40.126911,-91.417307,Bear Creek,Bear Creek,City
+001113,001113,39.954840,-91.415572,Cedar Creek,Cedar Creek,City
+001125,001125,39.816947,-91.340666,Harkness Creek,Harkness Creek,City
+001137,001137,39.705948,-91.354510,Bear Creek,Bear Creek,City
+001138,001138,39.671084,-91.310428,Marble Creek,Marble Creek,City
+001139,001139,39.496365,-91.204685,Sugar Creek,Sugar Creek,City
+001140,001140,39.489497,-91.186066,Early Branch,Early Branch,City
+001141,001141,39.468256,-91.087146,Tanyard Branch,Tanyard Branch,City
+001160,001160,38.885727,-90.173300,Cross Under US Hwy 67/Clark Bridge,Cross Under US Hwy 67/Clark Bridge,City
+001176,001176,38.631232,-90.181812,Cross Under Doctor Martin Luther King Bridge,Cross Under Doctor Martin Luther King Bridge,City
+001194,001194,38.444297,-90.232119,Cross Carr Creek,Cross Carr Creek,City
+001195,001195,38.422855,-90.241407,Cross Little Carr Creek,Cross Little Carr Creek,City
+001196,001196,38.404902,-90.250538,Cross Long Slash Creek,Cross Long Slash Creek,City
+001213,001213,37.877121,-89.945949,"St. Mary, MO","St. Mary, MO",City
+001219,001219,37.860259,-89.938028,Cross Saint Laurent Creek,Cross Saint Laurent Creek,City
+001234,001234,37.884589,-89.785127,Cross Marys River,Cross Marys River,City
+001250,001250,37.533758,-89.455711,Cross Running Lake Ditch,Cross Running Lake Ditch,City
+001251,001251,37.318878,-89.436068,Cross Old Clear Creek,Cross Old Clear Creek,City
+001267,001267,37.198818,-89.451699,Cross Orchard Creek,Cross Orchard Creek,City
+001268,001268,37.150899,-89.361337,Cross Black Creek,Cross Black Creek,City
+001280,001280,36.984045,-89.141150,Fort Defiance State Park,Fort Defiance State Park,City
+001292,001292,36.589409,-89.073515,Cross Samson Creek,Cross Samson Creek,City
+001304,001304,36.519011,-89.610408,"Marston, MO","Marston, MO",City
+001316,001316,36.193474,-89.655988,"Caruthersville, MO","Caruthersville, MO",City
+001347,001347,35.920290,-89.798317,"Armorel, AR","Armorel, AR",City
+001363,001363,35.756000,-89.936831,"Luxora, AR","Luxora, AR",City
+001364,001364,35.704896,-89.964010,"Osceola, AR","Osceola, AR",City
+001379,001379,35.624764,-89.992115,"Rotan, AR","Rotan, AR",City
+001380,001380,35.612819,-90.011417,"Driver, AR","Driver, AR",City
+001381,001381,35.568038,-90.042507,"Wilson, AR","Wilson, AR",City
+001394,001394,35.534527,-90.127356,"Bassett, AR","Bassett, AR",City
+001395,001395,35.508916,-90.148576,"Joiner, AR","Joiner, AR",City
+001407,001407,35.426786,-90.214862,"Meneshea, AR","Meneshea, AR",City
+001408,001408,35.374033,-90.255095,"Turrell, AR","Turrell, AR",City
+001421,001421,35.214940,-90.197464,"Marion, AR","Marion, AR",City
+001451,001451,35.086536,-90.056763,Cross US Route 61/TN SR 14,Cross US Route 61/TN SR 14,City
+001452,001452,35.086480,-90.050628,Cross Latham Branch,Cross Latham Branch,City
+001464,001464,35.020763,-90.087887,Cross TN SR 175,Cross TN SR 175,City
+001465,001465,34.999212,-90.118729,Cross Horn Lake Creek,Cross Horn Lake Creek,City
+001489,001489,34.703144,-90.379806,"North Tunica, MS","North Tunica, MS",City
+001501,001501,34.690638,-90.382236,"Tunica, MS","Tunica, MS",City
+001552,001552,34.364759,-90.640270,"Friars Point, MS","Friars Point, MS",City
+001564,001564,34.325194,-90.623058,Cross MS SR 1,Cross MS SR 1,City
+001570,001570,34.255893,-90.570774,"Coahoma, MS","Coahoma, MS",City
+001571,001571,34.203197,-90.576063,"Clarksdale, MS","Clarksdale, MS",City
+001583,001583,34.209190,-90.700207,Cross Harris Bayou,Cross Harris Bayou,City
+001589,001589,33.978562,-90.910308,"Perthshire, MS","Perthshire, MS",City
+001601,001601,33.941854,-90.943585,"Gunnison, MS","Gunnison, MS",City
+001602,001602,33.853703,-91.027629,"Rosedale, MS","Rosedale, MS",City
+001614,001614,33.790279,-90.981534,"Beulah, MS","Beulah, MS",City
+001615,001615,33.718179,-90.982590,"Lobdell, MS","Lobdell, MS",City
+001621,001621,33.716093,-90.982624,Cross Christmas Lake Branch,Cross Christmas Lake Branch,City
+001633,001633,33.699365,-90.983202,Cross Christmas Lake Branch,Cross Christmas Lake Branch,City
+001639,001639,33.651639,-91.009147,"Benoit, MS","Benoit, MS",City
+001652,001652,33.594945,-91.084317,"Scott, MS","Scott, MS",City
+001664,001664,33.553176,-91.082871,Cross Williams Bayou,Cross Williams Bayou,City
+001670,001670,33.536923,-91.080220,"Lamont, MS","Lamont, MS",City
+001682,001682,33.385317,-91.067293,"Greenville, MS","Greenville, MS",City
+001717,001717,33.025779,-91.032399,"Glen Allan, MS","Glen Allan, MS",City
+001730,001730,32.689123,-91.027486,Cross Fivemile Lake,Cross Fivemile Lake,City
+001736,001736,32.435597,-90.821607,"Blakely, MS","Blakely, MS",City
+001737,001737,32.379466,-90.867718,"Waltersville, MS","Waltersville, MS",City
+001743,001743,32.356147,-90.880802,Cross Glass Bayou,Cross Glass Bayou,City
+001749,001749,32.350248,-90.883280,"Vicksburg, MS","Vicksburg, MS",City
+001765,001765,32.147289,-90.938113,Cross Blackman Bayou,Cross Blackman Bayou,City
+001766,001766,32.081676,-90.926547,Cross Big Black River,Cross Big Black River,City
+001778,001778,31.956195,-90.985061,"Port Gibson, MS","Port Gibson, MS",City
+001784,001784,31.951374,-90.985786,Cross Towyard Branch,Cross Towyard Branch,City
+001796,001796,31.929842,-90.994686,Cross Under Natchez Trace Parkway,Cross Under Natchez Trace Parkway,City
+001808,001808,31.868072,-91.039751,Cross Barnes Creek,Cross Barnes Creek,City
+001809,001809,31.843733,-91.057331,Cross Over MS SR 552,Cross Over MS SR 552,City
+001810,001810,31.760727,-91.167915,Cross Mud Island Creek,Cross Mud Island Creek,City
+001811,001811,31.747278,-91.176005,Cross Over MS SR 553,Cross Over MS SR 553,City
+001833,001833,31.560165,-91.403251,"Natchez, MS","Natchez, MS",City
+001850,001850,31.566469,-91.427369,"Vidalia, LA","Vidalia, LA",City
+001863,001863,31.009069,-91.654023,Cross Sugar Mill Chute,Cross Sugar Mill Chute,City
+001864,001864,31.003594,-91.673487,Cross Carr Cut Off,Cross Carr Cut Off,City
+001877,001877,30.977769,-91.803458,Cross Atchafalaya River,Cross Atchafalaya River,City
+001889,001889,30.977751,-91.803442,Cross Atchafalaya River,Cross Atchafalaya River,City
+001902,001902,30.891498,-91.687500,Cross Bayou Hazard,Cross Bayou Hazard,City
+001903,001903,30.877730,-91.680920,Cross LA SR 418,Cross LA SR 418,City
+001904,001904,30.877523,-91.680838,Cross Bayou Latenache,Cross Bayou Latenache,City
+001910,001910,30.876806,-91.680573,"Innis, LA","Innis, LA",City
+001911,001911,30.842002,-91.661797,"Batchelor, LA","Batchelor, LA",City
+001917,001917,30.840779,-91.660986,Cross LA SR 419,Cross LA SR 419,City
+001931,001931,30.737261,-91.593096,"Morganza, LA","Morganza, LA",City
+001937,001937,30.720036,-91.578367,Cross Bayou Barre,Cross Bayou Barre,City
+001950,001950,30.704567,-91.460925,Cross LA SR 10,Cross LA SR 10,City
+001963,001963,30.693174,-91.434885,"New Roads, LA","New Roads, LA",City
+001983,001983,30.343120,-91.144480,"At roundabout, take exit 1 onto River Road, LA 327","At roundabout, take exit 1 onto River Road, LA 327",City
+001997,001997,30.278534,-91.130230,"Sunshine, LA","Sunshine, LA",City
+002012,002012,30.118417,-90.987646,"Darrow, LA","Darrow, LA",City
+002025,002025,30.134525,-90.950376,"Hillaryville, LA","Hillaryville, LA",City
+002026,002026,30.137498,-90.924922,"Burnside, LA","Burnside, LA",City
+002038,002038,30.098721,-90.907793,Cross Under LA SR 70,Cross Under LA SR 70,City
+002050,002050,30.020755,-90.830013,"Convent, LA","Convent, LA",City
+002068,002068,29.864024,-89.906290,"Caernarvon, LA","Caernarvon, LA",City
+002081,002081,29.807424,-89.998955,"Dalcour, LA","Dalcour, LA",City
+002087,002087,29.712056,-89.977890,Cross Belair Canal,Cross Belair Canal,City
+002099,002099,29.645509,-89.939670,"Phoenix, LA","Phoenix, LA",City
+002100,002100,29.607361,-89.848526,"Davant, LA","Davant, LA",City
+002101,002101,29.578118,-89.796236,"Pointe a la Hache, LA","Pointe a la Hache, LA",City
+002113,002113,29.501747,-89.717128,"Port Sulphur, LA","Port Sulphur, LA",City
+002114,002114,29.451996,-89.648360,"Empire, LA","Empire, LA",City
+002115,002115,29.348117,-89.526278,"Buras, LA","Buras, LA",City
+002116,002116,29.342115,-89.466633,"Triumph, LA","Triumph, LA",City
+002128,002128,29.343677,-89.421802,"Boothville, LA","Boothville, LA",City
+002129,002129,29.305102,-89.379748,"Venice, LA","Venice, LA",City
+002135,002135,29.267967,-89.355452,End LA SR 23,End LA SR 23,City
+002309,002309,46.682644,-93.588689,Cross Willow River,Cross Willow River,City
+002748,002748,44.992561,-93.274588,Cross Under Plymouth Ave Bridge,Cross Under Plymouth Ave Bridge,City
+002865,002865,44.902443,-93.133554,Lilydale Creek,Lilydale Creek,City
+003064,003064,44.748696,-92.801775,"Prescott, WI","Prescott, WI",City
+003113,003113,44.661143,-92.636436,Wind River,Wind River,City
+003125,003125,44.648518,-92.623816,"Diamond Bluff, WI","Diamond Bluff, WI",City
+003153,003153,44.603130,-92.562892,"Trenton, WI","Trenton, WI",City
+003171,003171,44.601440,-92.538200,"Hager City, WI","Hager City, WI",City
+003183,003183,44.601315,-92.527930,Cross WI SR 63,Cross WI SR 63,City
+003200,003200,44.584395,-92.450600,"Bay City, WI","Bay City, WI",City
+003216,003216,44.584389,-92.450599,"Bay City, WI","Bay City, WI",City
+003234,003234,44.588055,-92.395800,"Oakridge, WI","Oakridge, WI",City
+003244,003244,44.560645,-92.309734,"Maiden Rock, WI","Maiden Rock, WI",City
+003271,003271,44.482986,-92.262162,"Stockholm, WI","Stockholm, WI",City
+003300,003300,44.438990,-92.148517,"Pepin, WI","Pepin, WI",City
+003339,003339,44.420775,-92.008870,"Nelson, WI","Nelson, WI",City
+003373,003373,44.319837,-91.914744,"Alma, WI","Alma, WI",City
+003401,003401,44.230548,-91.864539,"Buffalo City, WI","Buffalo City, WI",City
+003611,003611,43.783282,-91.229367,Cross US Route 14/61 and WI SR 35,Cross US Route 14/61 and WI SR 35,City
+003637,003637,43.761220,-91.206939,Cross Under US Route 14/61 and WI SR 35,Cross Under US Route 14/61 and WI SR 35,City
+003652,003652,43.749994,-91.200341,"Maple Grove, WI","Maple Grove, WI",City
+003664,003664,43.739090,-91.200505,Mormon Creek,Mormon Creek,City
+003690,003690,43.574677,-91.227540,"Genoa, WI","Genoa, WI",City
+003716,003716,43.485860,-91.213420,"Victory, WI","Victory, WI",City
+003776,003776,43.246841,-91.057828,"Lynxville, WI","Lynxville, WI",City
+003869,003869,43.088817,-91.185948,Effigy Mounds National Monument,Effigy Mounds National Monument,City
+003913,003913,43.022061,-91.178400,"McGregor, IA","McGregor, IA",City
+003931,003931,42.938500,-91.176982,Cross Sny Magill Creek,Cross Sny Magill Creek,City
+003962,003962,42.783823,-91.096190,"Guttenberg, IA","Guttenberg, IA",City
+004035,004035,42.704199,-90.956464,Cross Mill Branch,Cross Mill Branch,City
+004077,004077,42.619658,-90.639668,Cross Indian Creek,Cross Indian Creek,City
+004078,004078,42.618226,-90.632401,Cross Indian Creek,Cross Indian Creek,City
+004095,004095,42.626874,-90.592426,"Dickeyville, WI","Dickeyville, WI",City
+004107,004107,42.611497,-90.589516,Cross Indian Creek,Cross Indian Creek,City
+004146,004146,42.535255,-90.611267,Cross Over US Route 61/151 and WI SR 35,Cross Over US Route 61/151 and WI SR 35,City
+004177,004177,42.492134,-90.642756,"East Dubuque, IL","East Dubuque, IL",City
+004278,004278,42.405357,-90.594244,"King, IA","King, IA",City
+004289,004289,42.360673,-90.539504,"St. Donatus, IA","St. Donatus, IA",City
+004295,004295,42.358217,-90.534693,Cross Tete Des Morts Creek,Cross Tete Des Morts Creek,City
+004347,004347,42.250509,-90.419070,Cross Mill Creek,Cross Mill Creek,City
+004412,004412,42.097458,-90.158899,"Savanna, IL","Savanna, IL",City
+004447,004447,42.051046,-90.116187,"Ayers, IL","Ayers, IL",City
+004492,004492,41.870269,-90.145055,Cross Cattail Slough,Cross Cattail Slough,City
+004526,004526,41.863710,-90.165699,"Fulton, IL","Fulton, IL",City
+004542,004542,41.865949,-90.180929,"Clinton, IA","Clinton, IA",City
+004601,004601,41.838951,-90.190311,"Clinton, IA","Clinton, IA",City
+004620,004620,41.825330,-90.168016,Cross Cattail Creek,Cross Cattail Creek,City
+004655,004655,41.790247,-90.221360,"Albany, IL","Albany, IL",City
+004682,004682,41.768860,-90.246525,Cross Meredosia Ditch,Cross Meredosia Ditch,City
+004717,004717,41.680350,-90.319208,"Cordova, IL","Cordova, IL",City
+004730,004730,41.614194,-90.336076,"Port Byron, IL","Port Byron, IL",City
+004763,004763,41.582675,-90.346478,"Rapids City, IL","Rapids City, IL",City
+004842,004842,41.556903,-90.414090,"Hampton, IL","Hampton, IL",City
+004866,004866,41.517915,-90.460947,"East Moline, IL","East Moline, IL",City
+004991,004991,41.454978,-90.726599,"Buffalo, IA","Buffalo, IA",City
+004992,004992,41.459399,-90.806862,"Montpelier, IA","Montpelier, IA",City
+004993,004993,41.459773,-90.821938,"Midway Beach, IA","Midway Beach, IA",City
+005003,005003,41.435318,-90.906463,"Fairport, IA","Fairport, IA",City
+005026,005026,41.426746,-91.035998,"Muscatine, IA","Muscatine, IA",City
+005086,005086,41.167275,-91.000809,"New Boston, IL","New Boston, IL",City
+005121,005121,41.100704,-90.942896,"Keithsburg, IL","Keithsburg, IL",City
+005156,005156,40.936196,-90.956732,"Oquawka, IL","Oquawka, IL",City
+005228,005228,40.812288,-91.100669,"Burlington, IA","Burlington, IA",City
+005261,005261,40.677744,-91.075070,"Lomax, IL","Lomax, IL",City
+005289,005289,40.624132,-91.214566,Spillman Creek,Spillman Creek,City
+005301,005301,40.630429,-91.300839,"Fort Madison, IA","Fort Madison, IA",City
+005334,005334,40.617542,-91.287710,"Niota, IL","Niota, IL",City
+005344,005344,40.549800,-91.381742,"Nauvoo, IL","Nauvoo, IL",City
+005371,005371,40.389271,-91.359767,Railroad Creek,Railroad Creek,City
+005388,005388,40.269440,-91.422334,Rocky Run,Rocky Run,City
+005421,005421,39.935820,-91.415216,"Quincy, IL","Quincy, IL",City
+005449,005449,39.841077,-91.369316,Mill Creek,Mill Creek,City
+005499,005499,39.709246,-91.356889,"Hannibal, MO","Hannibal, MO",City
+005545,005545,39.454030,-91.055800,"Louisiana, MO","Louisiana, MO",City
+005576,005576,39.458016,-90.891235,Sixmile Creek Diversion Ditch,Sixmile Creek Diversion Ditch,City
+005617,005617,39.230123,-90.717602,"Hamburg, IL","Hamburg, IL",City
+005623,005623,39.191966,-90.699479,Indian Creek,Indian Creek,City
+005639,005639,39.032640,-90.657980,"Batchtown, IL","Batchtown, IL",City
+005702,005702,38.969077,-90.435154,"Grafton, IL","Grafton, IL",City
+005736,005736,38.934803,-90.274314,"Riehl, IL","Riehl, IL",City
+005773,005773,38.805540,-90.099159,Cross Cahokia Diversion Channel,Cross Cahokia Diversion Channel,City
+005855,005855,38.644837,-90.182113,"Cross Under Interstate Hwy 70/Stan Musial Bridge (the ""Stan ","Cross Under Interstate Hwy 70/Stan Musial Bridge (the ""Stan Span"")",City
+005936,005936,38.619436,-90.166709,Cross Under IL SR 3 NB Ramp,Cross Under IL SR 3 NB Ramp,City
+005944,005944,38.618479,-90.165573,Cross Under IL SR 3 SB Ramp,Cross Under IL SR 3 SB Ramp,City
+005959,005959,38.614070,-90.162967,Cross Under Unbuilt Freeway Bridge,Cross Under Unbuilt Freeway Bridge,City
+005977,005977,38.589849,-90.169571,"Sauget, IL","Sauget, IL",City
+005993,005993,38.571355,-90.186880,Cross IL SR 157,Cross IL SR 157,City
+006008,006008,38.570659,-90.188654,"Cahokia, IL","Cahokia, IL",City
+006024,006024,38.566750,-90.190922,Cross IL SR 3,Cross IL SR 3,City
+006041,006041,38.519308,-90.210753,"Dupo, IL","Dupo, IL",City
+006050,006050,38.493513,-90.213364,Cross Hill Creek,Cross Hill Creek,City
+006064,006064,38.463027,-90.223222,Cross Over IL SR 3,Cross Over IL SR 3,City
+006082,006082,38.294628,-90.311211,"Valmeyer, IL","Valmeyer, IL",City
+006099,006099,38.247674,-90.291837,Cross Monroe City Creek,Cross Monroe City Creek,City
+006129,006129,38.135282,-90.151120,Cross Onemile Race Creek,Cross Onemile Race Creek,City
+006184,006184,37.979119,-90.043021,"Ste. Genevieve, MO","Ste. Genevieve, MO",City
+006242,006242,37.920815,-89.915302,"Kaskaskia, IL","Kaskaskia, IL",City
+006304,006304,37.905957,-89.833491,"Chester, IL","Chester, IL",City
+006374,006374,37.711662,-89.527557,Cross Matusky Brook,Cross Matusky Brook,City
+006380,006380,37.715866,-89.488225,"Gorham, IL","Gorham, IL",City
+006418,006418,37.631079,-89.505521,"Grand Tower, IL","Grand Tower, IL",City
+006434,006434,37.321835,-89.431978,"McLure, IL","McLure, IL",City
+006474,006474,37.297630,-89.523140,"At roundabout, take exit 1 onto Morgan Oak Street","At roundabout, take exit 1 onto Morgan Oak Street",City
+006517,006517,37.240295,-89.443692,Cross Miller Creek,Cross Miller Creek,City
+006529,006529,37.221080,-89.460609,"Thebes, IL","Thebes, IL",City
+006547,006547,37.164563,-89.426880,"Fayville, IL","Fayville, IL",City
+006565,006565,37.168710,-89.353291,"Olive Branch, IL","Olive Branch, IL",City
+006591,006591,37.062820,-89.231749,"Klondike, Il","Klondike, Il",City
+006606,006606,37.029084,-89.186510,"Future City, IL","Future City, IL",City
+006618,006618,37.003100,-89.172932,"Cairo, IL","Cairo, IL",City
+006690,006690,36.964908,-89.090414,"Wickliffe, KY","Wickliffe, KY",City
+006750,006750,36.803742,-89.083043,"Berkley, KY","Berkley, KY",City
+006762,006762,36.759473,-89.103470,"Columbus, KY","Columbus, KY",City
+006840,006840,36.572419,-89.194882,"Hickman, KY","Hickman, KY",City
+006862,006862,36.566580,-89.207130,KY 1354,KY 1354,City
+006897,006897,36.598915,-89.416771,Cross Wilson Bayou,Cross Wilson Bayou,City
+006925,006925,36.583548,-89.527178,"New Madrid, MO","New Madrid, MO",City
+006976,006976,36.425184,-89.696740,"Portageville, MO","Portageville, MO",City
+007021,007021,36.234033,-89.740798,"Hayti, MO","Hayti, MO",City
+007112,007112,35.294662,-90.230347,Cross Fifteenmile Bayou,Cross Fifteenmile Bayou,City
+007127,007127,35.250844,-90.212989,Cross Fifteenmile Bayou,Cross Fifteenmile Bayou,City
+007128,007128,35.189263,-90.136920,Cross Tenmile Bayou,Cross Tenmile Bayou,City
+007223,007223,34.828835,-90.324184,Cross Indian Creek,Cross Indian Creek,City
+007270,007270,34.496127,-90.532933,Cross Phillips Bayou,Cross Phillips Bayou,City
+007299,007299,34.208919,-90.575703,Cross Mill Creek,Cross Mill Creek,City
+007332,007332,34.061978,-90.852895,Cross Wildcat Slough,Cross Wildcat Slough,City
+007333,007333,34.026646,-90.853897,Cross Wildcat Slough,Cross Wildcat Slough,City
+007334,007334,33.985134,-90.904353,Cross Boque Phalia,Cross Boque Phalia,City
+007416,007416,32.887020,-91.050954,Cross Mills Bayou,Cross Mills Bayou,City
+007533,007533,31.656351,-91.205696,Cross Monkey Bayou,Cross Monkey Bayou,City
+007582,007582,31.004794,-91.725039,Cross Bayou Moreau,Cross Bayou Moreau,City
+007601,007601,30.953409,-91.755115,Cross Bayou Moreau,Cross Bayou Moreau,City
+007638,007638,30.502610,-91.170033,Cross Monte Sano Bayou,Cross Monte Sano Bayou,City
+007842,007842,29.863253,-89.909162,Cross Bayou Mandeville,Cross Bayou Mandeville,City
 ,,,,=== Intersections - Left/Right/Slight Left/Slight Right/Crossroads ===,,
 000187,000187,45.860385,-94.359326,Blanchard Dam to Left,Blanchard Dam to Left,Dot
 000266,000266,47.472667,-94.879172,Lake Bemidji to Left,Lake Bemidji to Left,Dot
@@ -662,8 +975,6 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 001188,001188,38.628820,-90.173580,Turn left onto Riverpark Drive,Turn left onto Riverpark Drive,Dot
 001202,001202,38.322432,-90.299001,Moredock Lake to Right,Moredock Lake to Right,Dot
 001203,001203,38.297960,-90.311530,Turn left onto Margraphics Drive,Turn left onto Margraphics Drive,Dot
-001204,001204,38.025300,-90.059780,Slight right onto Fish Lake Rd/​Modoc Ferry Rd,Slight right onto Fish Lake Rd/​Modoc Ferry Rd,Ferry
-001205,001205,38.018310,-90.060200,Fish Lake Rd/​Modoc Ferry Rd turns left and becomes Levee Rd,Fish Lake Rd/​Modoc Ferry Rd turns left and becomes Levee Rd,Ferry
 001206,001206,37.977040,-90.042780,Turn left onto St Marys Rd,Turn left onto St Marys Rd,Dot
 001207,001207,37.921450,-89.912930,Turn right onto La Grande Rue,Turn right onto La Grande Rue,Dot
 001225,001225,37.906180,-89.833280,Turn sharp right onto Randolph Street,Turn sharp right onto Randolph Street,Dot
@@ -768,7 +1079,6 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 001975,001975,30.505583,-91.212922,LA SR 1 to Right,LA SR 1 to Right,Dot
 001976,001976,30.473160,-91.168360,"Turn right onto Chippewa Street, LA 3164","Turn right onto Chippewa Street, LA 3164",Dot
 001977,001977,30.457160,-91.189866,LA State Capitol to Left,LA State Capitol to Left,Dot
-001989,001989,30.287581,-91.209944,Plaquemine Ferry access rd to Right,Plaquemine Ferry access rd to Right,Ferry
 001990,001990,30.286890,-91.208650,"Continue onto River Road, LA 75","Continue onto River Road, LA 75",Dot
 001991,001991,30.286957,-91.155263,Junction LA SR 327 to Left,Junction LA SR 327 to Left,Dot
 002003,002003,30.214150,-91.095710,"Turn left onto Point Clair Road, LA 75","Turn left onto Point Clair Road, LA 75",Dot
@@ -789,7 +1099,6 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 002074,002074,29.847810,-89.976410,Continue onto LA 39,Continue onto LA 39,Dot
 002075,002075,29.847807,-89.976411,Junction LA SR 39 to Left,Junction LA SR 39 to Left,Dot
 002093,002093,29.649820,-89.948567,Turn Right onto LA SR 15,Turn Right onto LA SR 15,Dot
-002107,002107,29.576693,-89.793967,Turn Right onto Pointe a la Hache Ferry Access Rd,Turn Right onto Pointe a la Hache Ferry Access Rd,Ferry
 002122,002122,29.352105,-89.456900,Fort Jackson Park to Left,Fort Jackson Park to Left,Dot
 002142,002142,47.240920,-95.212720,Turn right onto CR 117,Turn right onto CR 117,Dot
 002143,002143,47.243320,-95.210460,Turn left onto North Entrance Drive,Turn left onto North Entrance Drive,Dot
@@ -1598,7 +1907,6 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 006834,006834,36.571330,-89.186236,Junction KY SR 125 to Left,Junction KY SR 125 to Left,Dot
 006846,006846,36.568548,-89.200409,Junction KY SR 309 to Left,Junction KY SR 309 to Left,Dot
 006854,006854,36.566710,-89.206590,Slight Left,Keep left onto KY 94,Dot
-006855,006855,36.566580,-89.207130,Turn left onto Hickman Ferry Crossing,Turn left onto Hickman Ferry Crossing,Ferry
 006879,006879,36.591500,-89.236420,Continue onto MO A,Continue onto MO A,Dot
 006880,006880,36.591504,-89.236462,Junction MO SR 77 to Right,Junction MO SR 77 to Right,Dot
 006890,006890,36.615560,-89.285390,Turn left onto County Road 520,Turn left onto County Road 520,Dot
@@ -1775,7 +2083,6 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 007797,007797,29.940800,-90.065750,Turn left onto South Peters Street,Turn left onto South Peters Street,Dot
 007798,007798,29.949740,-90.064200,Slight Left,Keep left onto Canal Street,Dot
 007799,007799,29.949770,-90.064000,Continue onto Canal Street,Continue onto Canal Street,Dot
-007800,007800,29.949940,-90.062140,Continue onto Canal Street–Algiers Point Ferry,Continue onto Canal Street–Algiers Point Ferry,Ferry
 007801,007801,29.953000,-90.056180,Turn slight right,Turn slight right,Dot
 007802,007802,29.953020,-90.055320,Turn left,Turn left,Dot
 007803,007803,29.953160,-90.055330,Turn right,Turn right,Dot
@@ -1783,327 +2090,19 @@ No,Line,Latitude,Longitude,Name,Description,Symbol
 007819,007819,29.947140,-90.022880,Slight Left,Keep left onto Mississippi River Trail,Dot
 007827,007827,29.921020,-89.973950,Turn left onto Winston Street,Turn left onto Winston Street,Dot
 007835,007835,29.868550,-89.891240,Keep right,Keep right,Dot
-,,,,=== City/Town Center ===,,
-000141,000141,,,=== Control - Cardinal Extreme ===,,City
-000146,000146,,,"Changelog 260507-08: Ferry symbols, improved city detection, combined boundaries",,Ferry
-000150,000150,,,=== Control - Cardinal Extreme ===,,City
-000157,000157,,,"Changelog 260507-07: City detection by state abbr, combined state boundaries, improved ferry handling",,Ferry
-000163,000163,,,=== Control - Cardinal Extreme ===,,City
-000178,000178,,,=== Control - Cardinal Extreme ===,,City
-000242,000242,47.253614,-95.212219,Cross MN SH 200,Cross MN SH 200,City
-000248,000248,47.354145,-95.081257,"Becida, MN","Becida, MN",City
-000254,000254,47.468590,-94.915704,Cross US Route 2/MN SR 371,Cross US Route 2/MN SR 371,City
-000260,000260,47.472663,-94.879661,"Bemidji, MN","Bemidji, MN",City
-000277,000277,47.382615,-94.607534,"Cross US Route 2,Cass Lake, MN","Cross US Route 2,Cass Lake, MN",City
-000278,000278,47.379469,-94.607580,"Cass Lake, MN","Cass Lake, MN",City
-000290,000290,47.345258,-94.208763,"Bena, MN","Bena, MN",City
-000319,000319,47.232869,-93.528355,"Grand Rapids, MN","Grand Rapids, MN",City
-000332,000332,47.005025,-93.294460,Cross MN SR 200,Cross MN SR 200,City
-000344,000344,46.710380,-93.488410,"Palisade, MN","Palisade, MN",City
-000345,000345,46.535519,-93.706699,"Aitkin, MN","Aitkin, MN",City
-000351,000351,46.546163,-93.958131,Cross MN SR 6,Cross MN SR 6,City
-000370,000370,46.357541,-94.216182,Cross MN SR 210,Cross MN SR 210,City
-000383,000383,46.312361,-94.267580,Cross Under MN SR 371,Cross Under MN SR 371,City
-000398,000398,46.243719,-94.343237,"Lennox, MN","Lennox, MN",City
-000410,000410,46.166298,-94.360239,"Fort Ripley, MN","Fort Ripley, MN",City
-000423,000423,45.976882,-94.365548,"Little Falls, MN","Little Falls, MN",City
-000440,000440,45.751969,-94.220339,"Rice, MN","Rice, MN",City
-000441,000441,45.676365,-94.180808,"Watab, MN","Watab, MN",City
-000442,000442,45.615261,-94.204521,"Sartell, MN","Sartell, MN",City
-000448,000448,45.595201,-94.191041,Cross MN SR 15,Cross MN SR 15,City
-000460,000460,45.559262,-94.156485,"Cross MN SR 23 ,St. Cloud, MN","Cross MN SR 23 ,St. Cloud, MN",City
-000475,000475,45.415028,-94.050264,"Clearwater, MN","Clearwater, MN",City
-000488,000488,45.305632,-93.794192,"Cross MN SR 25,Monticello, MN","Cross MN SR 25,Monticello, MN",City
-000500,000500,45.281140,-93.565770,"At roundabout, take exit 1 onto Parrish Avenue Northeast, CR","At roundabout, take exit 1 onto Parrish Avenue Northeast, CR 42",City
-000501,000501,45.281119,-93.565739,"Otsego, MN","Otsego, MN",City
-000507,000507,45.263639,-93.555879,Cross Under MN SR 101,Cross Under MN SR 101,City
-000513,000513,45.244054,-93.515348,"Dayton, MN","Dayton, MN",City
-000525,000525,45.190680,-93.396070,Cross Under MN SR 169,Cross Under MN SR 169,City
-000540,000540,45.127662,-93.300102,Cross Under MN SR 252,Cross Under MN SR 252,City
-000554,000554,44.987407,-93.267170,Cross Under Nicollet Island Silver Railroad Bridge,Cross Under Nicollet Island Silver Railroad Bridge,City
-000560,000560,44.982387,-93.261772,"Minneapolis, MN","Minneapolis, MN",City
-000574,000574,44.894866,-93.181092,Cross Under MN SR 5,Cross Under MN SR 5,City
-000588,000588,44.931876,-93.102715,Cross Under MN SR 149,Cross Under MN SR 149,City
-000601,000601,44.949851,-93.098456,"St. Paul, MN","St. Paul, MN",City
-000615,000615,44.931581,-93.080787,"South St. Paul, MN","South St. Paul, MN",City
-000636,000636,44.824084,-92.925816,"Cottage Grove, MN","Cottage Grove, MN",City
-000649,000649,44.806370,-92.912000,"At roundabout, take exit 2 onto East Point Douglas Road Sout","At roundabout, take exit 2 onto East Point Douglas Road South",City
-000679,000679,44.575709,-92.361894,Cross Warrentown Coulee,Cross Warrentown Coulee,City
-000685,000685,44.575650,-92.358551,"Warrentown, WI","Warrentown, WI",City
-000686,000686,44.448752,-92.179879,"Lakeport, WI","Lakeport, WI",City
-000708,000708,44.021017,-91.555169,"Homer, MN","Homer, MN",City
-000714,000714,44.006808,-91.495968,Cedar Creek,Cedar Creek,City
-000726,000726,43.913510,-91.359118,"Dakota, MN","Dakota, MN",City
-000727,000727,43.894649,-91.342980,"Dresbach, MN","Dresbach, MN",City
-000739,000739,43.828292,-91.301475,"La Crescent, MN","La Crescent, MN",City
-000773,000773,43.662022,-91.218994,"Stoddard, WI","Stoddard, WI",City
-000785,000785,43.340079,-91.081334,Sugar Creek,Sugar Creek,City
-000797,000797,43.169897,-91.134028,Du Charme Creek,Du Charme Creek,City
-000809,000809,43.050004,-91.151323,Cross Marais de Saint Feriole,Cross Marais de Saint Feriole,City
-000822,000822,43.045050,-91.178201,"Marquette, IA","Marquette, IA",City
-000835,000835,43.045031,-91.178180,"Marquette, IA","Marquette, IA",City
-000863,000863,42.693591,-90.845128,Cross McCartney Branch,Cross McCartney Branch,City
-000880,000880,42.630485,-90.652447,Cross Platte River,Cross Platte River,City
-000913,000913,42.071631,-90.172344,"Sabula, IA","Sabula, IA",City
-000926,000926,41.958422,-90.111859,"Thomson, IL","Thomson, IL",City
-000940,000940,41.803545,-90.180291,Cross Cedar Creek,Cross Cedar Creek,City
-000955,000955,41.593811,-90.335495,Cross Barber Creek,Cross Barber Creek,City
-000973,000973,41.532625,-90.429210,Sugar Creek,Sugar Creek,City
-001014,001014,41.503328,-90.608185,Credit Island Park,Credit Island Park,City
-001029,001029,41.187052,-90.967818,Edwards River,Edwards River,City
-001044,001044,40.865487,-90.960530,"Gladstone, IL","Gladstone, IL",City
-001050,001050,40.812560,-91.098170,Take exit 263 for County Rd 99/​Main St toward Burlington,Take exit 263 for County Rd 99/​Main St toward Burlington,City
-001064,001064,40.637810,-91.168609,"Dallas City, IL","Dallas City, IL",City
-001076,001076,40.465982,-91.362500,Larry Creek,Larry Creek,City
-001088,001088,40.372398,-91.394104,Cedar Glen Creek,Cedar Glen Creek,City
-001094,001094,40.359169,-91.434429,"Warsaw, IL","Warsaw, IL",City
-001100,001100,40.318575,-91.436556,Shuhart Creek,Shuhart Creek,City
-001101,001101,40.126911,-91.417307,Bear Creek,Bear Creek,City
-001113,001113,39.954840,-91.415572,Cedar Creek,Cedar Creek,City
-001125,001125,39.816947,-91.340666,Harkness Creek,Harkness Creek,City
-001137,001137,39.705948,-91.354510,Bear Creek,Bear Creek,City
-001138,001138,39.671084,-91.310428,Marble Creek,Marble Creek,City
-001139,001139,39.496365,-91.204685,Sugar Creek,Sugar Creek,City
-001140,001140,39.489497,-91.186066,Early Branch,Early Branch,City
-001141,001141,39.468256,-91.087146,Tanyard Branch,Tanyard Branch,City
-001160,001160,38.885727,-90.173300,Cross Under US Hwy 67/Clark Bridge,Cross Under US Hwy 67/Clark Bridge,City
-001176,001176,38.631232,-90.181812,Cross Under Doctor Martin Luther King Bridge,Cross Under Doctor Martin Luther King Bridge,City
-001194,001194,38.444297,-90.232119,Cross Carr Creek,Cross Carr Creek,City
-001195,001195,38.422855,-90.241407,Cross Little Carr Creek,Cross Little Carr Creek,City
-001196,001196,38.404902,-90.250538,Cross Long Slash Creek,Cross Long Slash Creek,City
-001213,001213,37.877121,-89.945949,"St. Mary, MO","St. Mary, MO",City
-001219,001219,37.860259,-89.938028,Cross Saint Laurent Creek,Cross Saint Laurent Creek,City
-001234,001234,37.884589,-89.785127,Cross Marys River,Cross Marys River,City
-001250,001250,37.533758,-89.455711,Cross Running Lake Ditch,Cross Running Lake Ditch,City
-001251,001251,37.318878,-89.436068,Cross Old Clear Creek,Cross Old Clear Creek,City
-001267,001267,37.198818,-89.451699,Cross Orchard Creek,Cross Orchard Creek,City
-001268,001268,37.150899,-89.361337,Cross Black Creek,Cross Black Creek,City
-001280,001280,36.984045,-89.141150,Fort Defiance State Park,Fort Defiance State Park,City
-001292,001292,36.589409,-89.073515,Cross Samson Creek,Cross Samson Creek,City
-001304,001304,36.519011,-89.610408,"Marston, MO","Marston, MO",City
-001316,001316,36.193474,-89.655988,"Caruthersville, MO","Caruthersville, MO",City
-001347,001347,35.920290,-89.798317,"Armorel, AR","Armorel, AR",City
-001363,001363,35.756000,-89.936831,"Luxora, AR","Luxora, AR",City
-001364,001364,35.704896,-89.964010,"Osceola, AR","Osceola, AR",City
-001379,001379,35.624764,-89.992115,"Rotan, AR","Rotan, AR",City
-001380,001380,35.612819,-90.011417,"Driver, AR","Driver, AR",City
-001381,001381,35.568038,-90.042507,"Wilson, AR","Wilson, AR",City
-001394,001394,35.534527,-90.127356,"Bassett, AR","Bassett, AR",City
-001395,001395,35.508916,-90.148576,"Joiner, AR","Joiner, AR",City
-001407,001407,35.426786,-90.214862,"Meneshea, AR","Meneshea, AR",City
-001408,001408,35.374033,-90.255095,"Turrell, AR","Turrell, AR",City
-001421,001421,35.214940,-90.197464,"Marion, AR","Marion, AR",City
-001451,001451,35.086536,-90.056763,Cross US Route 61/TN SR 14,Cross US Route 61/TN SR 14,City
-001452,001452,35.086480,-90.050628,Cross Latham Branch,Cross Latham Branch,City
-001464,001464,35.020763,-90.087887,Cross TN SR 175,Cross TN SR 175,City
-001465,001465,34.999212,-90.118729,Cross Horn Lake Creek,Cross Horn Lake Creek,City
-001489,001489,34.703144,-90.379806,"North Tunica, MS","North Tunica, MS",City
-001501,001501,34.690638,-90.382236,"Tunica, MS","Tunica, MS",City
-001552,001552,34.364759,-90.640270,"Friars Point, MS","Friars Point, MS",City
-001564,001564,34.325194,-90.623058,Cross MS SR 1,Cross MS SR 1,City
-001570,001570,34.255893,-90.570774,"Coahoma, MS","Coahoma, MS",City
-001571,001571,34.203197,-90.576063,"Clarksdale, MS","Clarksdale, MS",City
-001583,001583,34.209190,-90.700207,Cross Harris Bayou,Cross Harris Bayou,City
-001589,001589,33.978562,-90.910308,"Perthshire, MS","Perthshire, MS",City
-001601,001601,33.941854,-90.943585,"Gunnison, MS","Gunnison, MS",City
-001602,001602,33.853703,-91.027629,"Rosedale, MS","Rosedale, MS",City
-001614,001614,33.790279,-90.981534,"Beulah, MS","Beulah, MS",City
-001615,001615,33.718179,-90.982590,"Lobdell, MS","Lobdell, MS",City
-001621,001621,33.716093,-90.982624,Cross Christmas Lake Branch,Cross Christmas Lake Branch,City
-001633,001633,33.699365,-90.983202,Cross Christmas Lake Branch,Cross Christmas Lake Branch,City
-001639,001639,33.651639,-91.009147,"Benoit, MS","Benoit, MS",City
-001652,001652,33.594945,-91.084317,"Scott, MS","Scott, MS",City
-001664,001664,33.553176,-91.082871,Cross Williams Bayou,Cross Williams Bayou,City
-001670,001670,33.536923,-91.080220,"Lamont, MS","Lamont, MS",City
-001682,001682,33.385317,-91.067293,"Greenville, MS","Greenville, MS",City
-001717,001717,33.025779,-91.032399,"Glen Allan, MS","Glen Allan, MS",City
-001730,001730,32.689123,-91.027486,Cross Fivemile Lake,Cross Fivemile Lake,City
-001736,001736,32.435597,-90.821607,"Blakely, MS","Blakely, MS",City
-001737,001737,32.379466,-90.867718,"Waltersville, MS","Waltersville, MS",City
-001743,001743,32.356147,-90.880802,Cross Glass Bayou,Cross Glass Bayou,City
-001749,001749,32.350248,-90.883280,"Vicksburg, MS","Vicksburg, MS",City
-001765,001765,32.147289,-90.938113,Cross Blackman Bayou,Cross Blackman Bayou,City
-001766,001766,32.081676,-90.926547,Cross Big Black River,Cross Big Black River,City
-001778,001778,31.956195,-90.985061,"Port Gibson, MS","Port Gibson, MS",City
-001784,001784,31.951374,-90.985786,Cross Towyard Branch,Cross Towyard Branch,City
-001796,001796,31.929842,-90.994686,Cross Under Natchez Trace Parkway,Cross Under Natchez Trace Parkway,City
-001808,001808,31.868072,-91.039751,Cross Barnes Creek,Cross Barnes Creek,City
-001809,001809,31.843733,-91.057331,Cross Over MS SR 552,Cross Over MS SR 552,City
-001810,001810,31.760727,-91.167915,Cross Mud Island Creek,Cross Mud Island Creek,City
-001811,001811,31.747278,-91.176005,Cross Over MS SR 553,Cross Over MS SR 553,City
-001833,001833,31.560165,-91.403251,"Natchez, MS","Natchez, MS",City
-001850,001850,31.566469,-91.427369,"Vidalia, LA","Vidalia, LA",City
-001863,001863,31.009069,-91.654023,Cross Sugar Mill Chute,Cross Sugar Mill Chute,City
-001864,001864,31.003594,-91.673487,Cross Carr Cut Off,Cross Carr Cut Off,City
-001877,001877,30.977769,-91.803458,Cross Atchafalaya River,Cross Atchafalaya River,City
-001889,001889,30.977751,-91.803442,Cross Atchafalaya River,Cross Atchafalaya River,City
-001902,001902,30.891498,-91.687500,Cross Bayou Hazard,Cross Bayou Hazard,City
-001903,001903,30.877730,-91.680920,Cross LA SR 418,Cross LA SR 418,City
-001904,001904,30.877523,-91.680838,Cross Bayou Latenache,Cross Bayou Latenache,City
-001910,001910,30.876806,-91.680573,"Innis, LA","Innis, LA",City
-001911,001911,30.842002,-91.661797,"Batchelor, LA","Batchelor, LA",City
-001917,001917,30.840779,-91.660986,Cross LA SR 419,Cross LA SR 419,City
-001931,001931,30.737261,-91.593096,"Morganza, LA","Morganza, LA",City
-001937,001937,30.720036,-91.578367,Cross Bayou Barre,Cross Bayou Barre,City
-001950,001950,30.704567,-91.460925,Cross LA SR 10,Cross LA SR 10,City
-001963,001963,30.693174,-91.434885,"New Roads, LA","New Roads, LA",City
-001983,001983,30.343120,-91.144480,"At roundabout, take exit 1 onto River Road, LA 327","At roundabout, take exit 1 onto River Road, LA 327",City
-001997,001997,30.278534,-91.130230,"Sunshine, LA","Sunshine, LA",City
-002012,002012,30.118417,-90.987646,"Darrow, LA","Darrow, LA",City
-002025,002025,30.134525,-90.950376,"Hillaryville, LA","Hillaryville, LA",City
-002026,002026,30.137498,-90.924922,"Burnside, LA","Burnside, LA",City
-002038,002038,30.098721,-90.907793,Cross Under LA SR 70,Cross Under LA SR 70,City
-002050,002050,30.020755,-90.830013,"Convent, LA","Convent, LA",City
-002068,002068,29.864024,-89.906290,"Caernarvon, LA","Caernarvon, LA",City
-002081,002081,29.807424,-89.998955,"Dalcour, LA","Dalcour, LA",City
-002087,002087,29.712056,-89.977890,Cross Belair Canal,Cross Belair Canal,City
-002099,002099,29.645509,-89.939670,"Phoenix, LA","Phoenix, LA",City
-002100,002100,29.607361,-89.848526,"Davant, LA","Davant, LA",City
-002101,002101,29.578118,-89.796236,"Pointe a la Hache, LA","Pointe a la Hache, LA",City
-002113,002113,29.501747,-89.717128,"Port Sulphur, LA","Port Sulphur, LA",City
-002114,002114,29.451996,-89.648360,"Empire, LA","Empire, LA",City
-002115,002115,29.348117,-89.526278,"Buras, LA","Buras, LA",City
-002116,002116,29.342115,-89.466633,"Triumph, LA","Triumph, LA",City
-002128,002128,29.343677,-89.421802,"Boothville, LA","Boothville, LA",City
-002129,002129,29.305102,-89.379748,"Venice, LA","Venice, LA",City
-002135,002135,29.267967,-89.355452,End LA SR 23,End LA SR 23,City
-002309,002309,46.682644,-93.588689,Cross Willow River,Cross Willow River,City
-002748,002748,44.992561,-93.274588,Cross Under Plymouth Ave Bridge,Cross Under Plymouth Ave Bridge,City
-002865,002865,44.902443,-93.133554,Lilydale Creek,Lilydale Creek,City
-003064,003064,44.748696,-92.801775,"Prescott, WI","Prescott, WI",City
-003113,003113,44.661143,-92.636436,Wind River,Wind River,City
-003125,003125,44.648518,-92.623816,"Diamond Bluff, WI","Diamond Bluff, WI",City
-003153,003153,44.603130,-92.562892,"Trenton, WI","Trenton, WI",City
-003171,003171,44.601440,-92.538200,"Hager City, WI","Hager City, WI",City
-003183,003183,44.601315,-92.527930,Cross WI SR 63,Cross WI SR 63,City
-003200,003200,44.584395,-92.450600,"Bay City, WI","Bay City, WI",City
-003216,003216,44.584389,-92.450599,"Bay City, WI","Bay City, WI",City
-003234,003234,44.588055,-92.395800,"Oakridge, WI","Oakridge, WI",City
-003244,003244,44.560645,-92.309734,"Maiden Rock, WI","Maiden Rock, WI",City
-003271,003271,44.482986,-92.262162,"Stockholm, WI","Stockholm, WI",City
-003300,003300,44.438990,-92.148517,"Pepin, WI","Pepin, WI",City
-003339,003339,44.420775,-92.008870,"Nelson, WI","Nelson, WI",City
-003373,003373,44.319837,-91.914744,"Alma, WI","Alma, WI",City
-003401,003401,44.230548,-91.864539,"Buffalo City, WI","Buffalo City, WI",City
-003611,003611,43.783282,-91.229367,Cross US Route 14/61 and WI SR 35,Cross US Route 14/61 and WI SR 35,City
-003637,003637,43.761220,-91.206939,Cross Under US Route 14/61 and WI SR 35,Cross Under US Route 14/61 and WI SR 35,City
-003652,003652,43.749994,-91.200341,"Maple Grove, WI","Maple Grove, WI",City
-003664,003664,43.739090,-91.200505,Mormon Creek,Mormon Creek,City
-003690,003690,43.574677,-91.227540,"Genoa, WI","Genoa, WI",City
-003716,003716,43.485860,-91.213420,"Victory, WI","Victory, WI",City
-003748,003748,43.350612,-91.102104,"Ferryvilly, WI","Ferryvilly, WI",Ferry
-003776,003776,43.246841,-91.057828,"Lynxville, WI","Lynxville, WI",City
-003869,003869,43.088817,-91.185948,Effigy Mounds National Monument,Effigy Mounds National Monument,City
-003913,003913,43.022061,-91.178400,"McGregor, IA","McGregor, IA",City
-003931,003931,42.938500,-91.176982,Cross Sny Magill Creek,Cross Sny Magill Creek,City
-003962,003962,42.783823,-91.096190,"Guttenberg, IA","Guttenberg, IA",City
-004035,004035,42.704199,-90.956464,Cross Mill Branch,Cross Mill Branch,City
-004077,004077,42.619658,-90.639668,Cross Indian Creek,Cross Indian Creek,City
-004078,004078,42.618226,-90.632401,Cross Indian Creek,Cross Indian Creek,City
-004095,004095,42.626874,-90.592426,"Dickeyville, WI","Dickeyville, WI",City
-004107,004107,42.611497,-90.589516,Cross Indian Creek,Cross Indian Creek,City
-004146,004146,42.535255,-90.611267,Cross Over US Route 61/151 and WI SR 35,Cross Over US Route 61/151 and WI SR 35,City
-004177,004177,42.492134,-90.642756,"East Dubuque, IL","East Dubuque, IL",City
-004278,004278,42.405357,-90.594244,"King, IA","King, IA",City
-004289,004289,42.360673,-90.539504,"St. Donatus, IA","St. Donatus, IA",City
-004295,004295,42.358217,-90.534693,Cross Tete Des Morts Creek,Cross Tete Des Morts Creek,City
-004347,004347,42.250509,-90.419070,Cross Mill Creek,Cross Mill Creek,City
-004412,004412,42.097458,-90.158899,"Savanna, IL","Savanna, IL",City
-004447,004447,42.051046,-90.116187,"Ayers, IL","Ayers, IL",City
-004492,004492,41.870269,-90.145055,Cross Cattail Slough,Cross Cattail Slough,City
-004526,004526,41.863710,-90.165699,"Fulton, IL","Fulton, IL",City
-004542,004542,41.865949,-90.180929,"Clinton, IA","Clinton, IA",City
-004601,004601,41.838951,-90.190311,"Clinton, IA","Clinton, IA",City
-004620,004620,41.825330,-90.168016,Cross Cattail Creek,Cross Cattail Creek,City
-004655,004655,41.790247,-90.221360,"Albany, IL","Albany, IL",City
-004682,004682,41.768860,-90.246525,Cross Meredosia Ditch,Cross Meredosia Ditch,City
-004717,004717,41.680350,-90.319208,"Cordova, IL","Cordova, IL",City
-004730,004730,41.614194,-90.336076,"Port Byron, IL","Port Byron, IL",City
-004763,004763,41.582675,-90.346478,"Rapids City, IL","Rapids City, IL",City
-004842,004842,41.556903,-90.414090,"Hampton, IL","Hampton, IL",City
-004866,004866,41.517915,-90.460947,"East Moline, IL","East Moline, IL",City
-004991,004991,41.454978,-90.726599,"Buffalo, IA","Buffalo, IA",City
-004992,004992,41.459399,-90.806862,"Montpelier, IA","Montpelier, IA",City
-004993,004993,41.459773,-90.821938,"Midway Beach, IA","Midway Beach, IA",City
-005003,005003,41.435318,-90.906463,"Fairport, IA","Fairport, IA",City
-005026,005026,41.426746,-91.035998,"Muscatine, IA","Muscatine, IA",City
-005086,005086,41.167275,-91.000809,"New Boston, IL","New Boston, IL",City
-005121,005121,41.100704,-90.942896,"Keithsburg, IL","Keithsburg, IL",City
-005156,005156,40.936196,-90.956732,"Oquawka, IL","Oquawka, IL",City
-005228,005228,40.812288,-91.100669,"Burlington, IA","Burlington, IA",City
-005261,005261,40.677744,-91.075070,"Lomax, IL","Lomax, IL",City
-005289,005289,40.624132,-91.214566,Spillman Creek,Spillman Creek,City
-005301,005301,40.630429,-91.300839,"Fort Madison, IA","Fort Madison, IA",City
-005334,005334,40.617542,-91.287710,"Niota, IL","Niota, IL",City
-005344,005344,40.549800,-91.381742,"Nauvoo, IL","Nauvoo, IL",City
-005371,005371,40.389271,-91.359767,Railroad Creek,Railroad Creek,City
-005388,005388,40.269440,-91.422334,Rocky Run,Rocky Run,City
-005421,005421,39.935820,-91.415216,"Quincy, IL","Quincy, IL",City
-005449,005449,39.841077,-91.369316,Mill Creek,Mill Creek,City
-005499,005499,39.709246,-91.356889,"Hannibal, MO","Hannibal, MO",City
-005545,005545,39.454030,-91.055800,"Louisiana, MO","Louisiana, MO",City
-005576,005576,39.458016,-90.891235,Sixmile Creek Diversion Ditch,Sixmile Creek Diversion Ditch,City
-005617,005617,39.230123,-90.717602,"Hamburg, IL","Hamburg, IL",City
-005623,005623,39.191966,-90.699479,Indian Creek,Indian Creek,City
-005639,005639,39.032640,-90.657980,"Batchtown, IL","Batchtown, IL",City
-005674,005674,38.965327,-90.494793,"Cross Illinois River ,Brussels Ferry","Cross Illinois River ,Brussels Ferry",Ferry
-005702,005702,38.969077,-90.435154,"Grafton, IL","Grafton, IL",City
-005736,005736,38.934803,-90.274314,"Riehl, IL","Riehl, IL",City
-005773,005773,38.805540,-90.099159,Cross Cahokia Diversion Channel,Cross Cahokia Diversion Channel,City
-005855,005855,38.644837,-90.182113,"Cross Under Interstate Hwy 70/Stan Musial Bridge (the ""Stan ","Cross Under Interstate Hwy 70/Stan Musial Bridge (the ""Stan Span"")",City
-005936,005936,38.619436,-90.166709,Cross Under IL SR 3 NB Ramp,Cross Under IL SR 3 NB Ramp,City
-005944,005944,38.618479,-90.165573,Cross Under IL SR 3 SB Ramp,Cross Under IL SR 3 SB Ramp,City
-005959,005959,38.614070,-90.162967,Cross Under Unbuilt Freeway Bridge,Cross Under Unbuilt Freeway Bridge,City
-005977,005977,38.589849,-90.169571,"Sauget, IL","Sauget, IL",City
-005993,005993,38.571355,-90.186880,Cross IL SR 157,Cross IL SR 157,City
-006008,006008,38.570659,-90.188654,"Cahokia, IL","Cahokia, IL",City
-006024,006024,38.566750,-90.190922,Cross IL SR 3,Cross IL SR 3,City
-006041,006041,38.519308,-90.210753,"Dupo, IL","Dupo, IL",City
-006050,006050,38.493513,-90.213364,Cross Hill Creek,Cross Hill Creek,City
-006064,006064,38.463027,-90.223222,Cross Over IL SR 3,Cross Over IL SR 3,City
-006082,006082,38.294628,-90.311211,"Valmeyer, IL","Valmeyer, IL",City
-006099,006099,38.247674,-90.291837,Cross Monroe City Creek,Cross Monroe City Creek,City
-006129,006129,38.135282,-90.151120,Cross Onemile Race Creek,Cross Onemile Race Creek,City
-006156,006156,38.009220,-90.053760,Take the Ste. Genevieve-Modoc ferry to Ste. Genevieve,Take the Ste. Genevieve-Modoc ferry to Ste. Genevieve,Ferry
-006184,006184,37.979119,-90.043021,"Ste. Genevieve, MO","Ste. Genevieve, MO",City
-006242,006242,37.920815,-89.915302,"Kaskaskia, IL","Kaskaskia, IL",City
-006304,006304,37.905957,-89.833491,"Chester, IL","Chester, IL",City
-006374,006374,37.711662,-89.527557,Cross Matusky Brook,Cross Matusky Brook,City
-006380,006380,37.715866,-89.488225,"Gorham, IL","Gorham, IL",City
-006418,006418,37.631079,-89.505521,"Grand Tower, IL","Grand Tower, IL",City
-006434,006434,37.321835,-89.431978,"McLure, IL","McLure, IL",City
-006474,006474,37.297630,-89.523140,"At roundabout, take exit 1 onto Morgan Oak Street","At roundabout, take exit 1 onto Morgan Oak Street",City
-006517,006517,37.240295,-89.443692,Cross Miller Creek,Cross Miller Creek,City
-006529,006529,37.221080,-89.460609,"Thebes, IL","Thebes, IL",City
-006547,006547,37.164563,-89.426880,"Fayville, IL","Fayville, IL",City
-006565,006565,37.168710,-89.353291,"Olive Branch, IL","Olive Branch, IL",City
-006591,006591,37.062820,-89.231749,"Klondike, Il","Klondike, Il",City
-006606,006606,37.029084,-89.186510,"Future City, IL","Future City, IL",City
-006618,006618,37.003100,-89.172932,"Cairo, IL","Cairo, IL",City
-006690,006690,36.964908,-89.090414,"Wickliffe, KY","Wickliffe, KY",City
-006750,006750,36.803742,-89.083043,"Berkley, KY","Berkley, KY",City
-006762,006762,36.759473,-89.103470,"Columbus, KY","Columbus, KY",City
-006840,006840,36.572419,-89.194882,"Hickman, KY","Hickman, KY",City
-006862,006862,36.566580,-89.207130,KY 1354,KY 1354,City
-006897,006897,36.598915,-89.416771,Cross Wilson Bayou,Cross Wilson Bayou,City
-006925,006925,36.583548,-89.527178,"New Madrid, MO","New Madrid, MO",City
-006976,006976,36.425184,-89.696740,"Portageville, MO","Portageville, MO",City
-007021,007021,36.234033,-89.740798,"Hayti, MO","Hayti, MO",City
-007112,007112,35.294662,-90.230347,Cross Fifteenmile Bayou,Cross Fifteenmile Bayou,City
-007127,007127,35.250844,-90.212989,Cross Fifteenmile Bayou,Cross Fifteenmile Bayou,City
-007128,007128,35.189263,-90.136920,Cross Tenmile Bayou,Cross Tenmile Bayou,City
-007223,007223,34.828835,-90.324184,Cross Indian Creek,Cross Indian Creek,City
-007270,007270,34.496127,-90.532933,Cross Phillips Bayou,Cross Phillips Bayou,City
-007299,007299,34.208919,-90.575703,Cross Mill Creek,Cross Mill Creek,City
-007332,007332,34.061978,-90.852895,Cross Wildcat Slough,Cross Wildcat Slough,City
-007333,007333,34.026646,-90.853897,Cross Wildcat Slough,Cross Wildcat Slough,City
-007334,007334,33.985134,-90.904353,Cross Boque Phalia,Cross Boque Phalia,City
-007416,007416,32.887020,-91.050954,Cross Mills Bayou,Cross Mills Bayou,City
-007533,007533,31.656351,-91.205696,Cross Monkey Bayou,Cross Monkey Bayou,City
-007582,007582,31.004794,-91.725039,Cross Bayou Moreau,Cross Bayou Moreau,City
-007601,007601,30.953409,-91.755115,Cross Bayou Moreau,Cross Bayou Moreau,City
-007638,007638,30.502610,-91.170033,Cross Monte Sano Bayou,Cross Monte Sano Bayou,City
-007842,007842,29.863253,-89.909162,Cross Bayou Mandeville,Cross Bayou Mandeville,City
+,,,,=== Overnight - Camping ===,,
+000220,000220,,,=== Overnight ===,,Dot
+000221,000221,,,=== Overnight ===,,Dot
+000222,000222,,,=== Overnight ===,,Dot
+000223,000223,,,=== Overnight ===,,Dot
+000224,000224,47.015880,-93.294980,Turn left onto Jacobson Campground Rd,Turn left onto Jacobson Campground Rd,Dot
+000225,000225,47.023260,-93.276700,Turn left to stay on Jacobson Campground Rd,Turn left to stay on Jacobson Campground Rd,Dot
+000226,000226,47.019700,-93.275410,Turn right to stay on Jacobson Campground Rd,Turn right to stay on Jacobson Campground Rd,Dot
+000227,000227,40.644695,-91.143470,Camp Creek,Camp Creek,Campground
+000896,000896,,,=== Overnight ===,,Dot
+000899,000899,42.182217,-90.355963,Sugar Camp Hollow to Right,Sugar Camp Hollow to Right,Dot
+000958,000958,,,=== Overnight ===,,Dot
+000961,000961,41.538145,-90.425832,Campbells Island Bridge,Campbells Island Bridge,City
 ,,,,=== Services - Food Store ===,,
 ,,,,=== Services - Bicycle Shop ===,,
 ,,,,=== Services - Restaurant /Cafe ===,,
