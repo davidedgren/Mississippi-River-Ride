@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="http://ridewithgps.com/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd">
   <metadata>
-    <name>MRRide_TRKpts_ONLY_026618-01</name>
+    <name>MRRide_TRKpts_ONLY_260618-01</name>
     <link href="https://ridewithgps.com/routes/54517582">
-      <text>MRRide_TRKpts_ONLY_026618-01</text>
+      <text>MRRide_TRKpts_ONLY_260618-01</text>
     </link>
     <time>2026-04-04T13:29:51Z</time>
   </metadata>
   <trk>
-    <name>MRRide_TRKpts_ONLY_026618-01</name>
+    <name>MRRide_TRKpts_ONLY_260618-01</name>
     <trkseg>
       <trkpt lat="47.23987" lon="-95.20786">
         <ele>447.7</ele>
@@ -55,6 +55,12 @@
       <trkpt lat="47.24007" lon="-95.2106">
         <ele>448.6</ele>
       </trkpt>
+      <trkpt lat="47.240173" lon="-95.210958">
+        <ele>449.2</ele>
+      </trkpt>
+      <trkpt lat="47.240183" lon="-95.210994">
+        <ele>449.2</ele>
+      </trkpt>
       <trkpt lat="47.2403" lon="-95.2114">
         <ele>450.0</ele>
       </trkpt>
@@ -71,6 +77,9 @@
         <ele>451.3</ele>
       </trkpt>
       <trkpt lat="47.24092" lon="-95.21272">
+        <ele>451.8</ele>
+      </trkpt>
+      <trkpt lat="47.240923" lon="-95.212718">
         <ele>451.8</ele>
       </trkpt>
       <trkpt lat="47.24131" lon="-95.21243">
@@ -103,11 +112,17 @@
       <trkpt lat="47.24323" lon="-95.2112">
         <ele>449.1</ele>
       </trkpt>
+      <trkpt lat="47.243272" lon="-95.210919">
+        <ele>445.7</ele>
+      </trkpt>
       <trkpt lat="47.243277" lon="-95.210883">
         <ele>445.8</ele>
       </trkpt>
       <trkpt lat="47.24328" lon="-95.21086">
         <ele>449.2</ele>
+      </trkpt>
+      <trkpt lat="47.24332" lon="-95.210463">
+        <ele>449.3</ele>
       </trkpt>
       <trkpt lat="47.24332" lon="-95.21046">
         <ele>449.3</ele>
@@ -426,6 +441,9 @@
       </trkpt>
       <trkpt lat="47.3139" lon="-95.22253">
         <ele>467.2</ele>
+      </trkpt>
+      <trkpt lat="47.314522" lon="-95.22253">
+        <ele>466.8</ele>
       </trkpt>
       <trkpt lat="47.31475" lon="-95.22253">
         <ele>466.4</ele>
